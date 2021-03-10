@@ -81,3 +81,7 @@ test:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
+
+  # database: rails-garden-manager_production
+  # username: rails-garden-manager_production
+  # password: <%= ENV['rails-garden-manager_DATABASE_PASSWORD'] %>
